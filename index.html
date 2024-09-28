@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRONOS - Watch website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <!-------------------------------NAVIGATION BAR------------------------------------------->
+        <nav class="nav">
+            <img src="images/logo1.jpg" class="logo" alt="logo">
+            <ul class="nav-links">
+                <li><a href="#arrivals">ARRIVALS</a></li>
+                <li><a href="#partners">PARTNERS</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="register.html" target="_blank">REGISTER</a></li>
+            </ul>
+        </nav>
+    
+    <!-------------------------------------ANIMATED WATCH GALLERY------------------------------------------------->
+
+    <section class="gallery-section">
+        <ul class="gallery">
+            <li><img srcset="images/rolex_1.1.jpg" alt="rolex"></li>
+            <li><img srcset="images/armani_1.1.jpg" alt="armani"></li>
+            <li><img srcset="images/patek_1.1.jpg" alt="patek"></li>
+            <li><img srcset="images/hublot_1.1.jpg" alt="hublot"></li>
+            <li><img srcset="images/breitling_4.1.jpg" alt="breitling"></li>
+        </ul>
+    </section>
+
+    <!-------------------------------------SECTION 1 --------------------------------------------------->
+    
+<section class="section_1" id="arrivals">
+    <div class="section1_text">
+        <div class="section1_heading">
+            <h2>Latest Arrivals</h2>
+        </div>    
+        <div class="section1_content">
+        </div>    
+        <p>Explore the latest additions to our collections, featuring exclusive from leading brands like Hublot, Breitling, TAG Heuer. Stay ahead with the most recent designs and innovations in luxury watches.</p>
+    
+        <button class="button1" onclick="goToExclusivePartners()">Learn More</button>
+    </div>    
+    <img src="images/rolex_3.1.jpg" class="section1_image" alt="latest_arrivals">
+</section>
+
+<!---------------------------------------SECTION 2 ----------------------------------------------------->
+
+
+<section class="section_2" id="partners">
+    <div class="section2_text">
+        <div class="section2_heading">
+            <h2>Exclusive Partners</h2>
+        </div>    
+        <div class="section2_content">
+        </div>    
+        <p>At CHRONOS,we bring you a curated selection of luxury watches from iconic brands such as <strong>Rolex, Armani, Hublot, Patek Philippe, Breitling</strong>. Explore timeless designs and the latest innovations in horology, all in one place. Discover the craftsmanship behind each masterpiece as you browse through our exclusive collection.</p>
+    
+        <button class="button2" onclick="goToExclusivePartners()">Learn More</button>
+    </div>    
+    <img src="images/patek_2.1.jpg" class="section2_image" alt="Photo_with_model">
+</section>
+
+<!-------------------------------------SECTION 3--------------------------------------------------------->
+
+<section class="section_3" id="about">
+    <img src="images/rolex_4.1.jpg" class="section3_image1" alt="Photo_with_model">
+    <div class="section3_text">
+        <div class="section3_heading">
+            <h2>About Us</h2>
+        </div>
+        <div class="section3_content">
+           
+        </div>
+        <p>At CHRONOS, we are passionate about luxury watches and their timeless elegance. Our platform offers enthusiasts, collectors, and newcomers an exceptional browsing experience, featuring a curated selection of timepieces from prestigious brands. We believe each watch tells a story, connecting you to the craftsmanship, history, and innovation behind every design.</p>
+        <button class="button3" onclick="goToAboutUs()">Learn More</button>
+    </div>
+    
+    <img src="images/hublot_2.1.jpg" class="section3_image2" alt="Photo_with_model">
+</section>
+
+
+
+    <!--------------------------------FOOTER SECTION----------------------------------------------------------->
+<footer class="footer-container">
+     <a href="https://www.instagram.com" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.gmail.com" target="_blank">
+        <i class="fa-regular fa-envelope"></i>
+    </a>
+    <a href="https://www.twitter.com" target="_blank">
+        <i class="fab fa-twitter"></i>
+    </a> 
+    <a href="https://www.linkedin.com" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>  
+ </footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
